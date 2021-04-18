@@ -16,8 +16,8 @@
 下载upload-labs包
 
 ```txt
-$ git clone https://github.com/haha347/docker-uploadlabs.git
-```
+$ git clone  https://github.com/haha347/upload-labs.git
+'''
 
 创建父级镜像
 
@@ -42,7 +42,7 @@ $  docker run -d -p 71:80 upload-labs/pass01:latest
 #### 2.3 访问upload题目页面
 
 ```txt
-http://you-ip:port/Pass
+http://ip:port/Pass
 ```
 
 
