@@ -26,14 +26,14 @@ $ cd docker-uploadlabs/upload-labs/docker
 $ docker build -t upload-labs .
 ```
 
-创建子级镜像（每道题一个子镜像）
+创建子级镜像
 
 ```txt
 $ cd docker-uploadlabs/Pass/Pass-01
 $ docker build -t upload-labs/pass01 .
 ```
 
-创建容器（每道题映射一个端口）
+创建容器
 
 ```
 $  docker run -d -p 81:80 upload-labs/pass01:latest
@@ -42,7 +42,7 @@ $  docker run -d -p 81:80 upload-labs/pass01:latest
 #### 2.3 访问upload题目页面
 
 ```txt
-http://you-ip:port/Pass
+http://you-ip/Pass/Pass-01
 ```
 
 
