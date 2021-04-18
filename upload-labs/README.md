@@ -16,33 +16,33 @@
 下载upload-labs包
 
 ```txt
-$ git clone https://github.com/clriseaa/docker-uploadlabs.git
+$ git clone https://github.com/haha347/upload-labs.git
 ```
 
 创建父级镜像
 
 ```txt
-$ cd docker-uploadlabs/upload-labs/docker
-$ docker build -t upload-labs .
+$ cd upload-labs/upload-lab/docker
+$ docker build -t upload-lab .
 ```
 
 创建子级镜像
 
 ```txt
-$ cd docker-uploadlabs/Pass/Pass-01
-$ docker build -t upload-labs/pass01 .
+$ cd upload-labs/Pass/Pass-01
+$ docker build -t upload-lab/pass01 .
 ```
 
 创建容器
 
 ```
-$  docker run -d -p 81:80 upload-labs/pass01:latest
+$  docker run -d -p 71:80 upload-lab/pass01:latest
 ```
 
 #### 2.3 访问upload题目页面
 
 ```txt
-http://you-ip/Pass/Pass-01
+http://ip/Pass/Pass-01
 ```
 
 
