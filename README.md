@@ -16,7 +16,7 @@
 下载upload-labs包
 
 ```txt
-$ git clone https://github.com/clriseaa/docker-uploadlabs.git
+$ git clone https://github.com/haha347/docker-uploadlabs.git
 ```
 
 创建父级镜像
@@ -36,7 +36,7 @@ $ docker build -t upload-labs/pass01 .
 创建容器（每道题映射一个端口）
 
 ```
-$  docker run -d -p 81:80 upload-labs/pass01:latest
+$  docker run -d -p 71:80 upload-labs/pass01:latest
 ```
 
 #### 2.3 访问upload题目页面
